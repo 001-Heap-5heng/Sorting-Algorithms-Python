@@ -6,19 +6,17 @@ print(A)
 print("\n")
 print("Starting Bubble Sort: ")
 
-triggered = False
-
 for h in range(0, len(A)):
+    sorted = True
     for i in range(0, len(A)-h-1):
         if A[i] > A[i+1]:
-            triggered = True
+            sorted = False
             temp = A[i]
             A[i] = A[i+1]
             A[i+1] = temp
             print(A)
-    if not triggered:
+    if sorted:
         break
-    triggered = False
 
 print("Bubble Sort Complete")
 print("\n")
