@@ -26,6 +26,15 @@ All generic sorting algorithms in Python 3.x Standard Library
 >> import random  
 >> A = random.sample(range(0, 255), 255)
 
+> ## Quick Sort 
+>> Requirement:  
+>> Python 3.x Standard Library
+>
+>> Time Complexity : O(n<sup>2</sup>)  
+>> Space Complexity: O(n)
+>
+>> Works best when pivot chosen is the population median
+
 > ## Selection Sort 
 >> Requirement:  
 >> Python 3.x Standard Library
