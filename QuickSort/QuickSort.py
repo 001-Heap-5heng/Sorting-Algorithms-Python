@@ -13,6 +13,9 @@ def quickSort(a=[]):
     global totalComparison
     global totalSwaps
 
+    if len(a) < 1:
+        return a
+    
     pivotPos = len(a)//2
     pivotVal = a[pivotPos]
     b = []
