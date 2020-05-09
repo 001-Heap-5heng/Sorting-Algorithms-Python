@@ -8,6 +8,16 @@ All generic sorting algorithms in Python 3.x Standard Library
 >> Time Complexity : O(n<sup>2</sup>)  
 >> Space Complexity: O(n)
 
+> ## Heap Sort 
+>> Requirement:  
+>> Python 3.x Standard Library
+>
+>> Time Complexity : O(nlog<sub>2</sub>n)  
+>> Space Complexity: O(n)
+>
+>> Works best when new elements are repeatedly added  
+>> or removed from the list.
+
 > ## Insertion Sort 
 >> Requirement:  
 >> Python 3.x Standard Library
